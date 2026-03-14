@@ -1,0 +1,66 @@
+\section{\textbf{實驗原理}}
+
+
+\subsection{庫侖定律 (Coulomb's Law)}
+兩靜止電荷間作用力的關係，由庫侖於 1784 年發現。實驗得知：
+\begin{enumerate}
+    \item 此作用力沿著兩電荷的連線。
+    \item 大小與兩電荷乘積 $q_1 q_2$ 成正比。
+    \item 大小與距離平方 $r_{12}^2$ 成反比。
+    \item 同號互斥，異號相吸。
+    \item 與介質特性有關。
+\end{enumerate}
+
+兩靜止電荷間作用力可以表示為：
+\begin{equation}
+    \mathbf{F}_{12} = k \frac{q_1 q_2}{r_{12}^2} \hat{\mathbf{r}}_{12} = -\mathbf{F}_{21}
+\end{equation}
+其中 $\hat{\mathbf{r}}_{12} = \frac{\mathbf{r}_{12}}{r_{12}}$ 為單位向量，$k$ 為靜電常數。
+若使用靜電單位 (e.s.u.)，真空中 $k = 1 \text{ dyne} \cdot \text{cm}^2/\text{esu}^2$。
+
+
+
+\subsection{電場 (Electric Field)}
+電場強度 $\mathbf{E}$ 定義為將一極小試驗電荷 $q_0$ 置於場中，其單位電荷所受的力：
+\begin{equation}
+    \mathbf{E} = \lim_{q_0 \to 0} \frac{\mathbf{F}}{q_0}
+\end{equation}
+其中 $q_0 \to 0$ 是為了避免干擾原靜電場分佈。電場力可寫為 $\mathbf{F} = q_0 \mathbf{E}$。
+
+\newpage
+
+\subsection{電力線 (Electric Field Lines)}
+法拉第引入電力線來視覺化電場：
+\begin{itemize}
+    \item 正電荷電力線指向外，負電荷指向內。
+    \item 電力線數目與電量大小成正比。
+    \item 電力線密度與電場大小成正比。
+    \item 電力線不可相交。
+\end{itemize}
+
+
+
+
+
+
+\subsection{電位差 (Electric Potential Difference)}
+在電場 $\mathbf{E}$ 中移動電荷 $q_0$ 需克服電場力作功 $W = \int \mathbf{F} \cdot d\mathbf{l}$。定義電位能為 $U$，則電位 $V$ 為：
+\begin{equation}
+    V = \frac{U}{q_0} = -\int \mathbf{E} \cdot d\mathbf{l}
+\end{equation}
+兩點間之電位差為：
+\begin{equation}
+    \Delta V = V_f - V_i = \frac{\Delta U}{q_0} = -\int_i^f \mathbf{E} \cdot d\mathbf{l} = -\frac{W_{if}}{q_0}
+\end{equation}
+
+\subsection{等位面與電力線的關係}
+電位相同之點的軌跡稱為等位面。
+\begin{itemize}
+    \item 電荷在等位面上移動不作功（$W=0$）。
+    \item \textbf{電力線必與等位面正交}：若不垂直，則電場在面上會有分量 $\mathbf{E}_{\parallel}$，移動電荷將會作功，這與等位面定義矛盾。
+\end{itemize}
+
+
+
+\subsection{導體的特性}
+當導體處於外電場中，自由電子會流動直至導體內每一點的電位都相等為止，此時導體內部電場為零，且導體表面為一個等位面。
